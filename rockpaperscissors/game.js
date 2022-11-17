@@ -14,6 +14,7 @@ const getUserChoice = (userInput) => {
 };
 
 function getComputerChoice() {
+  //There are three choices, Math.random() * 3 creates a random number between 0 and 2, and Math.floor rounds it
   const choiceVariable = Math.floor(Math.random() * 3);
   switch (choiceVariable) {
     case 0:
